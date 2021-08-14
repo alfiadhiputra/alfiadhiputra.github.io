@@ -835,7 +835,7 @@ img {
 }
 
 .testimonial__name {
-  font-size: var(--h3-font-size);
+  font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
 
