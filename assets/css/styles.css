@@ -1401,21 +1401,23 @@ img {
 
 .tag {
   display: inline-block;
-  padding: 5px 10px;
+  padding: 4px 20px;
   border-radius: 15px;
   font-size: 0.8rem;
   font-weight: bold;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .uiux {
-  background: #eac435;
-  color: #333;
+  background: #e1eefa;
+  color: #579ce0;
 }
 
 .video {
-  background: #2d87f0;
-  color: white;
+  /* background: #eac435;
+  color: #333; */
+  background: #e1eefa;
+  color: #579ce0;
 }
 
 .icons {
