@@ -382,6 +382,27 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+  margin-right: var(--mb-0-5);
+}
+
+.button--flex2 {
+  display: inline-flex;
+  align-items: center;
+  margin-right: var(--mb-0-5);
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid var(--first-color); /* Outline berwarna */
+  color: var(--first-color); /* Warna teks sesuai outline */
+  background: transparent; /* Latar belakang transparan */
+  border-radius: 10px;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.button--flex2:hover {
+  background: var(--first-color); /* Latar belakang berubah saat hover */
+  color: white; /* Warna teks berubah menjadi putih */
+  border: none; /* Menghilangkan outline saat hover */
 }
 
 .button--small {
@@ -1382,7 +1403,7 @@ img {
 
 .portfolio-card {
   background: white;
-  background-color: var(--container-color);
+  background-color: var(--hue-color);
   border-radius: 15px;
   padding: 15px;
   text-align: left;
